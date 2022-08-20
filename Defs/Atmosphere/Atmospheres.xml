@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<TAE.AtmosphericDef>
+		<defName>Water</defName>
+		<atmosphericTag>Liquid</atmosphericTag>
+		<labelShort>H2O</labelShort>
+		<valueColor>(125,125,255)</valueColor>
+		<replaceTags>
+			<li>Air</li>
+		</replaceTags>
+		<naturalOverlay>
+			<overlayTex>RoomOverlay/Liquid/Water1</overlayTex>
+			<overlayTex2>RoomOverlay/Liquid/Water2</overlayTex2>
+			<color>(35,137,218)</color>
+			<scale>(0.45,0.45)</scale>
+		</naturalOverlay>
+		<roomOverlay>
+			<overlayTex1>RoomOverlay/Liquid/Water1</overlayTex1>
+			<overlayTex2>RoomOverlay/Liquid/Water2</overlayTex2>
+			<color>(35,137,218)</color>
+		</roomOverlay>
+	</TAE.AtmosphericDef>
+	
+</Defs>
