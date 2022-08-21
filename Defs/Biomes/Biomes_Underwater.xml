@@ -5,28 +5,18 @@
 		<defName>Underwater_Ocean</defName>
 		<label>underwater ocean</label>
 		<description>N/A</description>
-		<implemented>true</implemented>
+		<implemented>false</implemented>
 		<workerClass>AEWater.BiomeWorker_UnderwaterOcean</workerClass>
-		<animalDensity>3.7</animalDensity>
-		<plantDensity>0.8</plantDensity>
-		<settlementSelectionWeight>1</settlementSelectionWeight>
-		<movementDifficulty>1</movementDifficulty>
+		
+		<settlementSelectionWeight>0</settlementSelectionWeight>
+		
+		<canBuildBase>true</canBuildBase>
+		<allowRoads>false</allowRoads>
+		<allowRivers>false</allowRivers>
+		<hasVirtualPlants>false</hasVirtualPlants>
 		<texture>World/Biomes/Ocean</texture>
-		<!--
-		<forageability>0</forageability>
-		<foragedFood>RawBerries</foragedFood>
-		-->
-		<wildPlantRegrowDays>20</wildPlantRegrowDays>
-		<!--
-		<soundsAmbient>
-			<li>Ambient_NightInsects_Standard</li>
-		</soundsAmbient>
-		-->
-		<diseaseMtbDays>50</diseaseMtbDays>
-		<!--
-		<diseases>
-		</diseases>
-		-->
+		<impassable>true</impassable>
+		
 		<terrainsByFertility>
 			<li>
 				<terrain>Sand</terrain>
@@ -52,10 +42,7 @@
 		<wildPlants>
 			<Plant_Grass>5.0</Plant_Grass>
 		</wildPlants>
-		<!--
-		<wildAnimals>
-		</wildAnimals>
-		-->
+		
 		<modExtensions>
 			<li Class="TAE.TAE_BiomeExtension">
 				<uniqueAtmospheres>
@@ -65,4 +52,69 @@
 		</modExtensions>
 	</BiomeDef>
 
+	<!--
+	<BiomeDef>
+		<defName>Underwater_Ocean</defName>
+		<label>underwater ocean</label>
+		<description>N/A</description>
+		<implemented>false</implemented>
+		<workerClass>AEWater.BiomeWorker_UnderwaterOcean</workerClass>
+		<animalDensity>3.7</animalDensity>
+		<plantDensity>0.8</plantDensity>
+		<settlementSelectionWeight>1</settlementSelectionWeight>
+		<movementDifficulty>1</movementDifficulty>
+		<texture>World/Biomes/Ocean</texture>
+
+		<forageability>0</forageability>
+		<foragedFood>RawBerries</foragedFood>
+	
+		<wildPlantRegrowDays>20</wildPlantRegrowDays>
+	
+		<soundsAmbient>
+			<li>Ambient_NightInsects_Standard</li>
+		</soundsAmbient>
+	
+		<diseaseMtbDays>50</diseaseMtbDays>
+		
+		<diseases>
+		</diseases>
+	
+		<terrainsByFertility>
+			<li>
+				<terrain>Sand</terrain>
+				<min>-999</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Soil</terrain>
+						<min>0.93</min>
+						<max>1.06</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		<baseWeatherCommonalities>
+			<Clear>18</Clear>
+		</baseWeatherCommonalities>
+		<wildPlants>
+			<Plant_Grass>5.0</Plant_Grass>
+		</wildPlants>
+	
+		<wildAnimals>
+		</wildAnimals>
+	
+		<modExtensions>
+			<li Class="TAE.TAE_BiomeExtension">
+				<uniqueAtmospheres>
+					<Water>1</Water>
+				</uniqueAtmospheres>
+			</li>
+		</modExtensions>
+	</BiomeDef>
+	-->
 </Defs>

@@ -12,13 +12,13 @@
 		<naturalOverlay>
 			<overlayTex>RoomOverlay/Liquid/Water1</overlayTex>
 			<overlayTex2>RoomOverlay/Liquid/Water2</overlayTex2>
-			<color>(35,137,218)</color>
-			<scale>(0.45,0.45)</scale>
+			<color>(93, 143, 231)</color>
+			<scale>(0.45, 0.45)</scale>
 		</naturalOverlay>
 		<roomOverlay>
 			<overlayTex1>RoomOverlay/Liquid/Water1</overlayTex1>
 			<overlayTex2>RoomOverlay/Liquid/Water2</overlayTex2>
-			<color>(35,137,218)</color>
+			<color>(35, 137, 218)</color>
 		</roomOverlay>
 	</TAE.AtmosphericDef>
 	
