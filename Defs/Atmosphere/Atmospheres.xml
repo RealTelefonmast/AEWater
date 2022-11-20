@@ -6,9 +6,9 @@
 		<atmosphericTag>Liquid</atmosphericTag>
 		<labelShort>H2O</labelShort>
 		<valueColor>(125,125,255)</valueColor>
-		<replaceTags>
+		<displaceTags>
 			<li>Air</li>
-		</replaceTags>
+		</displaceTags>
 		<naturalOverlay>
 			<overlayTex>RoomOverlay/Liquid/Water1</overlayTex>
 			<overlayTex2>RoomOverlay/Liquid/Water2</overlayTex2>

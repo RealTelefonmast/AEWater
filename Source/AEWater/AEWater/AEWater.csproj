@@ -31,7 +31,7 @@
 
 		<PackageReference Include="Microsoft.NETCore.Platforms" Version="*" />
 
-		<PackageReference Include="TeleCore" Version="1.2.4">
+		<PackageReference Include="TeleCore" Version="1.2.8">
 			<ExcludeAssets>runtime</ExcludeAssets>
 		</PackageReference>
 	</ItemGroup>
