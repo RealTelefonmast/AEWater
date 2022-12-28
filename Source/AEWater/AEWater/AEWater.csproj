@@ -25,13 +25,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Krafs.Rimworld.Ref" Version="*" GeneratePathProperty="true" />
-		<PackageReference Include="Lib.Harmony" Version="*" ExcludeAssets="runtime" />
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3580" GeneratePathProperty="true" />
+		<PackageReference Include="Lib.Harmony" Version="2.2.2" ExcludeAssets="runtime" />
 		<PackageReference Include="TaskPubliciser" Version="1.0.3" />
 
-		<PackageReference Include="Microsoft.NETCore.Platforms" Version="*" />
+		<PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.0" />
 
-		<PackageReference Include="TeleCore" Version="1.2.8">
+		<PackageReference Include="TeleCore" Version="1.6.1">
 			<ExcludeAssets>runtime</ExcludeAssets>
 		</PackageReference>
 	</ItemGroup>
